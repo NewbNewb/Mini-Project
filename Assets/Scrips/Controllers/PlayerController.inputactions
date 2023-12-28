@@ -7,15 +7,15 @@
             "actions": [
                 {
                     "name": "Jump",
-                    "type": "Value",
+                    "type": "Button",
                     "id": "3fd816ab-162a-4766-8d68-1b68ea5dcf96",
-                    "expectedControlType": "Vector2",
+                    "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": true
+                    "initialStateCheck": false
                 },
                 {
-                    "name": "Attck",
+                    "name": "Attack",
                     "type": "Button",
                     "id": "95461a96-ebbe-4c5c-bc11-fd216cb2f6ee",
                     "expectedControlType": "Button",
@@ -27,23 +27,23 @@
             "bindings": [
                 {
                     "name": "",
-                    "id": "3024a890-0bb8-40a3-b012-29a02fc67862",
-                    "path": "<Keyboard>/space",
+                    "id": "29ce3af2-fe84-4a96-8052-a7d7b07ee74a",
+                    "path": "<Keyboard>/z",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Jump",
+                    "action": "Attack",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
                 {
                     "name": "",
-                    "id": "29ce3af2-fe84-4a96-8052-a7d7b07ee74a",
-                    "path": "<Mouse>/leftButton",
+                    "id": "3024a890-0bb8-40a3-b012-29a02fc67862",
+                    "path": "<Keyboard>/x",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Attck",
+                    "action": "Jump",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
