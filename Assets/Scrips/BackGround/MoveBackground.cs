@@ -10,6 +10,13 @@ public class MoveBackground : MonoBehaviour
 	void Update () 
 	{
 		MoveGround();
+        if (PlayerStat.instance != null)
+        {
+            if (PlayerStat.instance.Health == 0)
+            {
+                speed = 0;
+            }
+        }
     }
 	void MoveGround()
 	{
