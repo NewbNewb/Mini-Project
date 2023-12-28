@@ -5,14 +5,18 @@ public class PlayerStatManager : MonoBehaviour
     public delegate void OnHealthChangedDelegate();
     public OnHealthChangedDelegate onHealthChangedCallback;
 
-    private static PlayerStatManager instance;
-    public static PlayerStatManager Instance
+    public static PlayerStatManager instance;
+
+    private void Awake()
     {
-        get
+        if (instance == null)
         {
-            if (instance == null)
-                instance = FindObjectOfType<PlayerStatManager>();
-            return instance;
+            instance = this;
+        }
+        else
+        {
+            Destroy(gameObject);
+            return;
         }
     }
 
