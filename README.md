@@ -16,22 +16,22 @@ Z 공격, X 점프
 - Visual Studio Community
 
 ## 주요 기능
- - 타이틀 씬
+> 타이틀 씬
  1. 게임 시작 버튼
- - 게임 시작 버튼 클릭시 메인 게임으로 씬 전환
+  - 게임 시작 버튼 클릭시 메인 게임으로 씬 전환
  2. 간단한 게임 타이틀 및 조작법
     
- - 메인 게임 씬
+> 메인 게임 씬
  1. 게임 매니저 - 임시 몬스터 인스턴스 생성
  2. 플레이어 애니메이션 - 공격, 점프, 데미지 입음, 죽음
  3. 플레이어 Input System 및 구현 목록
- - 체력 - 데미지 입으면 체력 감소 및 죽음
- - 공격 - 키보드 Z 몬스터 개체 공격을 받으면 Destroy 및 공격 쿨타임
- - 점프 - 키보드 X Addforce 메소드를 활용한 점프 구현
+  - 체력 - 데미지 입으면 체력 감소 및 죽음
+  - 공격 - 키보드 Z 몬스터 개체 공격을 받으면 Destroy 및 공격 쿨타임
+  - 점프 - 키보드 X Addforce 메소드를 활용한 점프 구현
  4. 플레이어 사망시 3초후 리트라이 팝업창 표시 및 이동 관련 오브젝트 스피드 0으로 변환
  5. 백그라운드 X 포지션 값 -20이 넘을시 20으로 이동
-
- - 추가로 봐야 할 것
+ 
+> 추가로 봐야 할 것
  1. 백그라운드 에셋 활용 및 일부 코드 수정 [에셋 링크](https://assetstore.unity.com/packages/2d/textures-materials/nature/free-pixel-art-hill-133118)
  2. 플레이어 애니메이션 에셋 활용 및 애니메이션 컨트롤러 수정 [에셋 링크](https://assetstore.unity.com/packages/2d/characters/warrior-free-asset-195707)
  3. 플레이어 체력 에셋 활용 및 일부 코드 수정 [에셋 링크](https://assetstore.unity.com/packages/tools/gui/simple-heart-health-system-120676)
